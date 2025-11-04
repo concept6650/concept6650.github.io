@@ -1,0 +1,47 @@
+/*blue theme*/
+
+body {
+    background-image: url("background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+    background-color: rgba(30,30,30, 0.95);
+    background-blend-mode: overlay;
+
+    color: hsl(220 0 150);
+    font-family: "Lucida Console", monospace;
+    margin: 40px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: hsl(220 50 80);
+    font-family: "Lucida Console", monospace;
+}
+
+p, ul, ol {
+    color: hsl(220 0 90);
+    font-family: "Lucida Console", monospace;
+}
+
+img {
+    border-radius: 5%;
+    box-shadow: 0 0 10px rgba(0,0,0,0.4);
+}
+
+table {
+    width: 60%;
+    margin: 20px 0;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid hsl(255 100 100);
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: hsl(220 100 70);
+    color: white;
+}
